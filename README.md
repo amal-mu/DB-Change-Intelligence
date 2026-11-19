@@ -11,8 +11,6 @@ To develop an intelligent six-agent system that validates change policies, revie
 •	Standardize SQL reviews, policy enforcement, and approval decisions. <br>
 •	Enhance governance, accountability, and traceability. <br>
 
-**The project is designed to improve review consistency, reduce manual effort and strengthen change traceability while preserving human control over sensitive database operations**
-
 **Scope:** This is a training-only proof of concept (PoC). AI reviews are advisory. Supported non-production examples are executed against isolated demonstration data in SQLite only. Production changes are executed and verified externally by a DBA; the application records the DBA's declaration. No real database server is connected.
 
 ## Project Structure
