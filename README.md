@@ -6,12 +6,12 @@ Manual database change reviews and approval processes can be time-consuming, inc
 ## Project Objective
 To develop an intelligent six-agent system that validates change policies, reviews SQL scripts for potential errors and improvements, manages human approvals, and supports controlled non-production execution and verification.
 ## Expected Business Value
-•	Reduce manual effort and operational risks.
-•	Improve the efficiency of change reviews and approvals.
-•	Standardize SQL reviews, policy enforcement, and approval decisions.
-•	Enhance governance, accountability, and traceability.
+•	Reduce manual effort and operational risks <br>
+•	Improve the efficiency of change reviews and approvals. <br>
+•	Standardize SQL reviews, policy enforcement, and approval decisions. <br>
+•	Enhance governance, accountability, and traceability. <br>
 
-The project is designed to improve review consistency, reduce manual effort and strengthen change traceability while preserving human control over sensitive database operations.
+## The project is designed to improve review consistency, reduce manual effort and strengthen change traceability while preserving human control over sensitive database operations.
 
 **Scope:** This is a training-only proof of concept (PoC). AI reviews are advisory. Supported non-production examples are executed against isolated demonstration data in SQLite only. Production changes are executed and verified externally by a DBA; the application records the DBA's declaration. No real database server is connected.
 
