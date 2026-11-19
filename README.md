@@ -14,7 +14,7 @@ To develop an intelligent six-agent system that validates change policies, revie
 ## Project Scope
 The solution is designed as a Proof of Concept (PoC). Executable non-production requests use an isolated SQLite sandbox. Production requests are reviewed and approved in the system, but execution and verification are performed manually by a DBA outside the system
 
-02. Project Structure
+# 02. Project Structure
 The project is organized into a simple, modular structure designed for easy development and execution within Google Colab.
 DB Change Intelligence/
 │
