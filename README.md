@@ -256,16 +256,6 @@ Only these supported operation patterns are translated into developer-authored, 
 
 The notebook defines 25 functional checks covering policy enforcement, review routing, versioning, approvals, execution safeguards, SQLite operations, verification, production handling and audit logging. Section 5 runs the tests using the installed LangGraph workflow. An assertion failure stops the test run. Passing offline tests does not establish live Groq or Streamlit integration success; validate those in the actual runtime.
 
-## Implementation Boundaries and Security
-
-- Simulated roles are not authenticated identities or enterprise RBAC.
-- Policy checks are simplified lexical heuristics, not a complete SQL parser or security certification.
-- AI review cannot confirm SQL correctness without real schema, data and execution-plan context; model output cannot approve or execute changes.
-- Backup and testing confirmations are requester declarations, not independently verified checks.
-- No real database connections or automated production execution are provided.
-- Execution errors can roll back the local SQLite savepoint; verification failures are routed to DBA review without automatic rollback of the completed change.
-- Audit history supports traceability but is not tamper-proof.
-- The Colab launcher reduces CORS/XSRF protections for private demonstration compatibility. Do not expose it publicly, reuse those settings in production, or submit confidential scripts or real customer data.
 
 ## Future Improvements
 
