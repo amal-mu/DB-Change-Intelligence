@@ -1,5 +1,11 @@
+# DB Change Intelligence
+**An Agentic AI-Powered Database Change Management System**  
+SDAIA Academy | Agentic AI Capstone | Proof of Concept
+
+Developed by **Amal ALmuteb*
+
 ## DB-Change-Intelligence
-DB Change Intelligence is an AI-powered solution designed to streamline and automate the database change management lifecycle. This document describes the approved revised design.
+DB Change Intelligence is an AI-powered solution designed to streamline and automate the database change management lifecycle.
 
 ## Problem Statement
 Manual database change reviews and approval processes can be time-consuming, inconsistent, and prone to human error, potentially increasing operational risks.
@@ -267,7 +273,6 @@ The notebook defines 25 functional checks covering policy enforcement, review ro
 ## Future Improvements
 
 - Integrate enterprise identity management, authenticated RBAC and separation of duties.
-- Improve SQL parsing and introduce dialect-aware validation, schema metadata and execution-plan analysis.
 - Integrate with IT service management (ITSM) and enterprise change-request systems.
 - Expand safe execution coverage with controlled non-production database connectivity and isolated execution infrastructure.
 - Introduce formal risk assessment, impact analysis, change scheduling and verified backup/testing evidence.
